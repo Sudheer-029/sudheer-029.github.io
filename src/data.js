@@ -1,4 +1,4 @@
-﻿export const person = {
+export const person = {
   name: 'Sudheer Bishnoi',
   roles: ['AI Engineer', 'GenAI Specialist', 'eCommerce Operations', 'Account Manager'],
   tagline: '87 tools built. 400+ daily users. Top 1% globally. AI Operations Specialist at Amazon.',
@@ -118,9 +118,36 @@ export const caseStudies = [
     liveUrl: 'https://electaguide-152578302488.us-central1.run.app',
     githubUrl: 'https://github.com/Sudheer-029/promptwars-v2',
   },
+  {
+    id: 5,
+    tag: 'Automation · Open Source · Live',
+    title: 'GST AutoFlow',
+    subtitle: 'Python · Streamlit · PDF Extraction',
+    problem: 'Indian SMBs waste hours every month reconciling GST — matching GSTR-2B against purchase registers, extracting data from vendor PDFs, and matching bank payments against GSTR-3B liability.',
+    solution: 'Built a three-module automation tool: GSTR-2B reconciliation engine with fuzzy column mapping for Tally/Zoho/SAP exports, PDF invoice OCR parser with confidence scoring, and a bank-vs-liability payment reconciler. Custom Streamlit CSS design system, 18 unit tests, deployed to production.',
+    outcome: 'Live at gst-autoflow.streamlit.app. Full reconciliation workflow — raw file upload to colour-coded Excel report — zero signup, no data retention.',
+    metrics: [
+      { label: 'Modules', value: '3' },
+      { label: 'Unit Tests', value: '18' },
+      { label: 'Deploy', value: 'Live ↗' },
+    ],
+    color: 'amber',
+    icon: '₹',
+    liveUrl: 'https://gst-autoflow.streamlit.app',
+    githubUrl: 'https://github.com/Sudheer-029/gst-autoflow',
+  },
 ]
 
 export const projects = [
+  {
+    title: 'GST AutoFlow',
+    desc: 'Full-stack GST reconciliation tool — GSTR-2B matching, PDF invoice OCR extraction, and bank payment reconciliation. 18 unit tests. Custom CSS design system. Deployed on Streamlit Cloud.',
+    tech: ['Python', 'Streamlit', 'pdfplumber', 'pandas', 'Plotly'],
+    github: 'https://github.com/Sudheer-029/gst-autoflow',
+    liveUrl: 'https://gst-autoflow.streamlit.app',
+    color: 'amber',
+    icon: '₹',
+  },
   {
     title: 'WhatsApp Review Automation',
     desc: 'Smart review funnel for local businesses. 4–5 stars → Google Review. 1–3 stars → private owner feedback. Dashboard with full activity log. No app download required.',
