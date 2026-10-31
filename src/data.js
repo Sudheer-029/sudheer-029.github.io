@@ -11,7 +11,8 @@ export const person = {
   github: 'https://github.com/Sudheer-029',
   status: 'AI Automation Engineer · Acumen Operators',
   languages: 'English fluent · German conversational · Hindi native',
-  availability: 'Open to remote roles and international relocation',
+  availability: 'Not actively looking · open to the right offer',
+  workSetup: 'Remote, hybrid or on-site; open to relocating for the right role',
   // Set to a path such as '/resumes/Sudheer_Bishnoi_CV.pdf' once the PDF is in public/resumes/.
   // While this is null, every "Download CV" button stays hidden.
   cvUrl: null,
