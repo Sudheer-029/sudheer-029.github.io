@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react'
 
 const links = [
-  { label: 'Experience', id: 'story' },
-  { label: 'Case studies', id: 'proof' },
-  { label: 'Projects', id: 'projects' },
-  { label: 'Skills',   id: 'skills' },
-  { label: 'Contact',  id: 'connect' },
+  { label: 'Work',       id: 'work' },
+  { label: 'Experience', id: 'experience' },
+  { label: 'Skills',     id: 'skills' },
+  { label: 'Contact',    id: 'contact' },
 ]
 
 export default function Nav() {
@@ -81,6 +80,7 @@ export default function Nav() {
         <button
           className="nav-hamburger"
           aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
           onClick={() => setMenuOpen(v => !v)}
           style={{ display: 'none', flexDirection: 'column', gap: 5, background: 'none', border: 'none', cursor: 'pointer', padding: 4 }}
         >
