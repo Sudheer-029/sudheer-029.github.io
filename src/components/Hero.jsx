@@ -106,7 +106,7 @@ export default function Hero() {
           </div>
 
           <div className="hero-chips" style={{ display: 'flex', gap: 10, flexWrap: 'wrap', paddingTop: 22, borderTop: `1px dashed ${colors.border}` }}>
-            <span className="chip">{person.availability}</span>
+            <span className="chip">{person.workSetup}</span>
             <span className="chip">{person.languages}</span>
           </div>
         </div>
