@@ -74,9 +74,10 @@ function SmallBuild({ item }) {
       <h4 className="font-display" style={{ fontSize: '1.02rem', fontWeight: 700, color: colors.text, marginBottom: 10 }}>{item.title}</h4>
       <p style={{ fontSize: '0.86rem', color: colors.muted, lineHeight: 1.65, flex: 1, marginBottom: 16 }}>{item.desc}</p>
       <Stack items={item.stack} color={accent.cyan} />
-      {(item.liveUrl || item.githubUrl) && (
-        <div style={{ display: 'flex', gap: 10, marginTop: 16 }}>
+      {(item.liveUrl || item.githubUrl || item.diagramUrl) && (
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginTop: 16 }}>
           {item.liveUrl && <LinkPill href={item.liveUrl} color={accent.cyan}>Live ↗</LinkPill>}
+          {item.diagramUrl && <LinkPill href={item.diagramUrl} color={accent.cyan}>Architecture ↗</LinkPill>}
           {item.githubUrl && <LinkPill href={item.githubUrl} color={accent.cyan}>Code ↗</LinkPill>}
         </div>
       )}
@@ -88,7 +89,7 @@ export default function Work() {
   return (
     <section id="work" style={{ padding: '96px 24px', maxWidth: 1100, margin: '0 auto', position: 'relative' }}>
       <SectionHeader number="01" label="Selected work" title="Things I've built" highlight="and shipped." gradient="violet"
-        intro="Production systems first, then hackathon and open-source builds. For internal work I describe what it does, never how the company's systems are named." />
+        intro="Production systems first, then hackathon and open-source builds. Every public repo has an architecture diagram traced from its code. For internal work I describe what it does, never how the company's systems are named." />
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
         {work.map(item => <CaseStudy key={item.id} item={item} />)}

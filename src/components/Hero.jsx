@@ -101,7 +101,7 @@ export default function Hero() {
 
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', marginBottom: 36 }}>
             <button className="btn-primary" onClick={scrollToWork}>See my work <span aria-hidden="true">→</span></button>
-            <a href={`mailto:${person.email}`} className="btn-ghost">Email me</a>
+            <a href={`mailto:${person.email}`} className="btn-ghost">Let's talk</a>
             {person.cvUrl && <a href={person.cvUrl} className="btn-ghost" download>Download CV</a>}
           </div>
 
