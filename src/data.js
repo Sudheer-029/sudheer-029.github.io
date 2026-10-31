@@ -55,6 +55,7 @@ export const work = [
     result: 'Built for the AWS “Agents for Humans” hackathon (Good Neighbor track), covered by 22 automated tests.',
     stack: ['Strands Agents SDK', 'AWS Bedrock', 'Claude', 'Python', 'SQLite', 'pytest'],
     githubUrl: 'https://github.com/Sudheer-029/Almoner_agent_for_human_AWS',
+    diagramUrl: '/diagrams/almoner.html',
   },
   {
     id: 'gst-autoflow',
@@ -90,6 +91,7 @@ export const work = [
     stack: ['Gemini', 'FastAPI', 'React', 'Cloud Run', 'Cloud Build'],
     liveUrl: 'https://electaguide-152578302488.us-central1.run.app',
     githubUrl: 'https://github.com/Sudheer-029/promptwars-v2',
+    diagramUrl: '/diagrams/electaguide.html',
   },
 ]
 
@@ -106,6 +108,7 @@ export const smallerBuilds = [
     desc: 'A Slack bot on AWS Bedrock that analyses incident reports and suggests fixes, with a human approval step before any action runs.',
     stack: ['Python', 'AWS Bedrock', 'Slack Bolt'],
     githubUrl: 'https://github.com/Sudheer-029/slack-troubleshoot-bot',
+    diagramUrl: '/diagrams/slack-bot.html',
   },
   {
     title: 'EcoNudge',
@@ -114,6 +117,7 @@ export const smallerBuilds = [
     stack: ['React', 'TypeScript', 'Hono', 'Cloud Run', 'Gemini'],
     liveUrl: 'https://econudge-1073149106934.asia-south1.run.app',
     githubUrl: 'https://github.com/Sudheer-029/promptwars-v3--EcoNudge',
+    diagramUrl: '/diagrams/econudge.html',
   },
   {
     title: 'Amazon catalog → JSON-LD pipeline',
@@ -121,6 +125,7 @@ export const smallerBuilds = [
     desc: 'Converts SP-API product data into Schema.org JSON-LD reusable for Google Rich Results, Shopify and TikTok Shop. Cut manual catalog structuring from about six months to a few weeks.',
     stack: ['Python', 'JSON-LD', 'Schema.org'],
     githubUrl: 'https://github.com/Sudheer-029/amazon-jsonld-pipeline',
+    diagramUrl: '/diagrams/jsonld-pipeline.html',
   },
   {
     title: 'RAG deep learning assistant',
@@ -128,6 +133,7 @@ export const smallerBuilds = [
     desc: 'Question answering over Wikipedia articles with Chroma, MiniLM embeddings and Llama 3.1 via Groq, behind a Gradio chat UI.',
     stack: ['LangChain', 'ChromaDB', 'Groq', 'Gradio'],
     githubUrl: 'https://github.com/Sudheer-029/rag-deep-learning-assistant',
+    diagramUrl: '/diagrams/rag-assistant.html',
   },
 ]
 
