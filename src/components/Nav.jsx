@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 
 const links = [
-  { label: 'Path',     id: 'story' },
-  { label: 'Work',     id: 'proof' },
+  { label: 'Experience', id: 'story' },
+  { label: 'Case studies', id: 'proof' },
   { label: 'Projects', id: 'projects' },
   { label: 'Skills',   id: 'skills' },
   { label: 'Contact',  id: 'connect' },
